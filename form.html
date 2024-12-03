@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Services - We will clean with confidence</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="icon" type="image/jpg" href="THe.jpg">
+    <title>Serve</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <div class="logo">
             <a href="index.html">
-                <img src="logo.png" alt="HS">
+                The Serve App
             </a>
         </div>
         <nav class="main-nav">
@@ -19,7 +24,7 @@
                 <li><a href="index.html">Services</a></li>
                 <li><a href="index.html">Drive</a></li>
                 <li><a href="index.html">Business</a></li>
-                <li><a href="form.html">Help</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeSIsap1MK9YaTNZQsU0tkhuq3NpOvEYDy01OoDmdfUsX_1HQ/viewform">Help</a></li>
                 <li><a href="index.html">Reviews</a></li>
                 <li><a href="index.html" class="button">Log In</a></li>
                 <li><a href="index.html" class="button button-primary">Sign Up</a></li>
@@ -28,7 +33,10 @@
     </header>
 
     <main>
+        
         <form action='index.php' method="get">
+
+            <label><h2>Write your questions here:</h2> </label>
             
             <label for=" first and last name">First & Last Name:</label>
             <input type="text" id="first and last name" placeholder='John Doe' required><br>
@@ -38,6 +46,16 @@
 
             <label for='phone'> Mobile Number:</label>
             <input type='tel' id="phone" placeholder="123-456-7890" required><br>
+
+            <label for="service wanted"> Pick out your service:</label>
+            <select>
+                <option>None</option>
+                <option>Cleaning</option>
+                <option>Handyman Repairs</option>
+                <option>Pool Maintenance</option>
+                <option>HVAC (Heating, Ventilation, Air Conditioning)</option>
+            </select>
+
 
             <label for='comment'>Add any comments:</label><br>
             <textarea id="comment" rows ='3' cols="25"></textarea><br>
